@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400");
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:400,500,600,700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000b1b;
+    color: #f8f8ff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f8f8ff;
+    color: #000b1b;
+  }
+}
